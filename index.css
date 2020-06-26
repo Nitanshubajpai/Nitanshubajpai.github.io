@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
     width: 370px;
     margin: 30px 20px 30px 500px;
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom: 10px;
     height: min-content;
@@ -55,7 +55,8 @@ body {
     color: rgb(71, 34, 4);
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 10px #000000;    
+    text-shadow: 1px 1px 20px #000000;    
+    
 }
 
 .profile {
@@ -90,7 +91,7 @@ h1 {
 .About {
     text-align: center;
     margin: 30px;
-    width: 750px;
+    width: 800px;
     margin: auto;
 }
 
@@ -135,4 +136,38 @@ h1 {
     margin: 30px;
     width: 750px;
     margin: auto;
+}
+
+.toolf {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.boxaroundtool {
+    background-color: rgb(212, 225, 238);
+    padding: 5px;
+    border-radius: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.toolfcpp {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(212, 225, 238);
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+
+.projects {
+    text-align: center;
+    margin: 30px;
+    width: 750px;
+    margin: auto;   
 }
